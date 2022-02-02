@@ -1,7 +1,6 @@
 import requests
 from requests import exceptions
 from bs4 import BeautifulSoup
-from urllib.error import HTTPError
 
 if __name__ == "__main__":
     #Store product name and search
@@ -9,9 +8,12 @@ if __name__ == "__main__":
     URL = "https://www.walmart.com/search?q="
     for i in product_split:
         URL += i + "+"
-
+    print(URL)
     #Request page and store BeautifulSoup object with html parser
     page = requests.get(URL)
     soup = BeautifulSoup(page.content, "html.parser")
 
     #Find all products
+    results = soup.find_all('span', class_="w_BJ")
+    for res in results:
+        print(res.text)
