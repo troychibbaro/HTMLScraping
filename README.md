@@ -15,5 +15,6 @@ Input: URL of desired Wikipedia article
 Output: A file named "(article name) Citations.txt" that contains
 that pages citations. If no citations were found, the file does not 
 get created. Any errors are printed to console. 
+
 ---
 
