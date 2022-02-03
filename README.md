@@ -3,6 +3,8 @@ This repository contains some sample Python scripts used to
 extract data from websites. The following are brief descriptions of 
 each project, and I will try to add new ones periodically.
 
+**Note**: These scripts were created **strictly** for educational purposes.
+
 ---
 ### Wikipedia Citation Scraper
     Input: URL of desired Wikipedia article
@@ -17,3 +19,8 @@ each project, and I will try to add new ones periodically.
 
     Output: Prints all search results to console as follows:
     "Product Name" - "Product Price"
+    
+    Example:
+    >>> Enter desired product name: magsafe duo charger
+    >>> Found 1 result(s) for "magsafe duo charger"
+    >>> Magsafe Duo Charger: $129

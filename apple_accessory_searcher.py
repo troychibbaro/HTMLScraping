@@ -37,7 +37,7 @@ if __name__ == "__main__":
     product = input("Enter desired product name: ")
     results = get_search_results(product)
     if results:
-        print(f'Found {len(results)} results for "{product}"')
+        print(f'Found {len(results)} result(s) for "{product}"')
         for res in results:
             print(f'{res["name"]}: {res["price"]}')
     else:
