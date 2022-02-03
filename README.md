@@ -19,6 +19,8 @@ each project, and I will try to add new ones periodically.
 
     Output: Prints all search results to console as follows:
     "Product Name" - "Product Price"
+    Due to page length limitations, this script will only show
+    the first 30 items in the search if results > 30 (items on the first page).
     
     Example:
     >>> Enter desired product name: magsafe duo charger
