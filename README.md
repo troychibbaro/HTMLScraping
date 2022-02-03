@@ -3,7 +3,9 @@ This repository contains some sample Python scripts used to
 extract data from websites. The following are brief descriptions of 
 each project, and I will try to add new ones periodically.
 
-**Note**: These scripts were created **strictly** for educational purposes.
+**Note**: These scripts were created **strictly** for educational purposes and may 
+stop functioning if these websites change their HTML code. If that happens,
+I'll try to update them accordingly.
 
 ---
 ### Wikipedia Citation Scraper
