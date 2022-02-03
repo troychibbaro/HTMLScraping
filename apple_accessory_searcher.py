@@ -17,7 +17,6 @@ def get_search_results(product: str):
 
         # search for all product results
         product_results = soup.find_all('div', class_="rf-producttile-info")
-        # print(product_results)
 
         # store product data, return dictionary if results are present
         all_products = []
