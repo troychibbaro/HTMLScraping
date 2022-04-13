@@ -28,3 +28,7 @@ I'll try to update them accordingly.
     >>> Enter desired product name: magsafe duo charger
     >>> Found 1 result(s) for "magsafe duo charger"
     >>> Magsafe Duo Charger: $129
+---
+### Heart Disease Key Indicators Analysis Tutorial
+    A simple Jupyter Notebook that helps to understand Pandas
+    and straight-forward analysis of a dataset shared to Kaggle.
