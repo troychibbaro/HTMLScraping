@@ -1,4 +1,4 @@
-# HTMLScraping
+# MLDataCollection
 This repository contains some sample Python scripts used to 
 extract data from websites. The following are brief descriptions of 
 each project, and I will try to add new ones periodically.
