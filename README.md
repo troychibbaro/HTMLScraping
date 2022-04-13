@@ -1,6 +1,6 @@
 # MLDataCollection
 This repository contains some sample Python scripts used to 
-extract data from websites. The following are brief descriptions of 
+extract data from websites and API's. The following are brief descriptions of 
 each project, and I will try to add new ones periodically.
 
 **Note**: These scripts were created **strictly** for educational purposes and may 
